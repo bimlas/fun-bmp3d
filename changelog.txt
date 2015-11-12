@@ -1,0 +1,89 @@
+2012.11.30  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	a tavolsag es a magassag erzekeltetese szinesebben
+
+2012.09.11  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c (main):
+	a parancssoron keresztul megadott fajlnev ertelmezese
+
+2012.06.06  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c (sdl_beallitas):
+	a startSDL uj neve
+
+	* bmp3d.c (hud_beallitas):
+	uj fuggveny, ide kerult a TTF_Init is
+
+	* bmp3d.c (sdl_beallitas, hud_beallitas):
+	a miniterkep beallitasa a hud_beallitas-ban tortenik az sdl_beallitas
+	helyett
+
+	* bmp3d.c (rajz):
+	a kirajzolando terulet aljat a hud teteje kepezi
+
+2012.05.26  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	a hud koordinatai helyett csak a magassagat hasznaljuk (HUD_MAGASSAG)
+
+	* bmp3d.c (hud_frissites):
+	a hud koordinatait statikus valtozoba szamolja ki
+
+	* bmp3d.c (rajz):
+	a kepernyo aljan a hud szamara fenntartott savba ne rajzoljon
+
+2012.05.20  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	a fobb surface-ek is strukturaba lettek foglalva (bmp -> terkep)
+
+	* bmp3d.c (interakcio):
+	WASD iranyitas es gyors mozgas hozzaadva; az egerrel is lehet mozogni
+
+	* bmp3d.c (hud_frissites, rajz):
+	miniterkep hozzaadva
+
+	* bmp3d.c (terkep_betoltes):
+	uj fuggveny
+
+2012.05.15  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	kommentek hozzafuzese
+
+	* bmp3d.c (interakcio):
+	az egertol fugg az elfordulas szoge
+
+	* bmp3d.c (hud_frissites):
+	a hud.szoveg felszabaditasa
+
+	* bmp3d.c (rajz):
+	tulindexeles javitasa (bmp_y)
+
+2012.05.14  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	const tipusokbol #define; *video, *bmp es a hud globalissa tetele
+
+	* bmp3d.c (main):
+	FPS meres visszarakasa
+
+	* bmp3d.c (hud):
+	atnevezve hud_frissites
+
+	* bmp3d.c (interakcio):
+	az egerrel is lehet mozogni
+
+	* bmp3d.c (rajz):
+	tulindexeles javatisa
+
+2012.05.02  BimbaLaszlo(.wbh.hu|gmail.com)
+
+	* bmp3d.c:
+	FPS meres kiszedve; a nezo a sugar es felulet tagokkal bovult, a tengelyek
+	neve felcserelve (z -> y)
+
+	* bmp3d.c (rajz):
+	cikluson beluli logikai hiba kijavitasa (tavolsag a belso ciklusba kerult)
