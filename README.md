@@ -2,6 +2,8 @@
 
 A fun project which turns bitmap image into relief.
 
+![image](https://github.com/bimlas/fun-bmp3d/assets/7034200/9f062b2f-ecb7-4363-91a4-7c3907d5da93)
+
 I did this project a long time ago and didn't thought that I will push it to
 the cloud, thus I wrote it in Hungarian.
 
